@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">CustomView</string>
+    <string name="app_name">View旅途</string>
+    <string name="control1">控制点1</string>
+    <string name="control2">控制点2</string>
 </resources>
