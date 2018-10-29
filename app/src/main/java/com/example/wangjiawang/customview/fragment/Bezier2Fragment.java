@@ -3,13 +3,13 @@ package com.example.wangjiawang.customview.fragment;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RadioButton;
 
 import com.example.wangjiawang.customview.R;
+import com.example.wangjiawang.customview.tool.FragmentType;
 import com.example.wangjiawang.customview.widget.Bezier2;
 
 /**
@@ -19,7 +19,7 @@ import com.example.wangjiawang.customview.widget.Bezier2;
  * <p>
  * description:三阶贝塞尔曲线测试类
  */
-public class Bezier2Fragment extends Fragment implements View.OnClickListener {
+public class Bezier2Fragment extends BaseFragment implements View.OnClickListener {
 
     private Bezier2 bezier2;
     private RadioButton control1,control2;
@@ -55,5 +55,10 @@ public class Bezier2Fragment extends Fragment implements View.OnClickListener {
                 bezier2.setMode(Bezier2.MODE_CONTROL_CONTROL_TWO);
                 break;
         }
+    }
+
+    @Override
+    public int getType() {
+        return FragmentType.TYPE2;
     }
 }
