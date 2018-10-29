@@ -21,8 +21,8 @@ public class Bezier2 extends View {
     private Paint mPaint;
     private int centerX,centerY;
     private PointF start,end,control1,control2;
-    public static int MODE_CONTROL_CONTROL_ONE = 0x100;    //控制点1
-    public static int MODE_CONTROL_CONTROL_TWO = 0x200;    //控制点2
+    public static final int MODE_CONTROL_CONTROL_ONE = 0x100;    //控制点1
+    public static final int MODE_CONTROL_CONTROL_TWO = 0x200;    //控制点2
     private int mode = MODE_CONTROL_CONTROL_ONE;
     public Bezier2(Context context) {
         this(context,null);

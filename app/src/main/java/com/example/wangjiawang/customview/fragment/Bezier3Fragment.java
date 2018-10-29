@@ -3,6 +3,7 @@ package com.example.wangjiawang.customview.fragment;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,22 +12,22 @@ import com.example.wangjiawang.customview.R;
 import com.example.wangjiawang.customview.tool.FragmentType;
 
 /**
- * Created by wangjiawang on 2018/10/24
+ * Created by wangjiawang on 2018/10/29
  * <p>
  * email:15829348578@163.com
  * <p>
- * description:二阶贝塞尔曲线测试Fragment
+ * description:
  */
-public class BezierFragment extends BaseFragment {
+public class Bezier3Fragment extends BaseFragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.bezier_layout,container,false);
+        View view = inflater.inflate(R.layout.bezier3_layout,container,false);
         return view;
     }
 
     @Override
     public int getType() {
-        return FragmentType.TYPE1;
+        return FragmentType.TYPE3;
     }
 }
