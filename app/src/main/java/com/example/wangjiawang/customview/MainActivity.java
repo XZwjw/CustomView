@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         //方法1
         loadFragment(new Bezier3Fragment());
         Log.d("TAG","test 1提交");
+        Log.d("TAG","我是test 2");
     }
 
     /**
