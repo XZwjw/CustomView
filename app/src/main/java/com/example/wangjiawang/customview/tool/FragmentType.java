@@ -11,5 +11,7 @@ public class FragmentType {
     public final static int TYPE1 = 10;  //二阶贝塞尔曲线fragment
     public final static int TYPE2 = 20; //三阶贝塞尔曲线fragment
     public final static int TYPE3 = 30; //心形渐变View
+    public final static int TYPE4 = 40; //PathMeasure的使用
+
 
 }

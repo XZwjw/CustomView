@@ -10,6 +10,7 @@ import com.example.wangjiawang.customview.fragment.BaseFragment;
 import com.example.wangjiawang.customview.fragment.Bezier2Fragment;
 import com.example.wangjiawang.customview.fragment.Bezier3Fragment;
 import com.example.wangjiawang.customview.fragment.BezierFragment;
+import com.example.wangjiawang.customview.fragment.PathMeasureFragment;
 import com.example.wangjiawang.customview.tool.FragmentType;
 
 
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.main_activity_layout);
         mManager = getSupportFragmentManager();
         //方法1
-        loadFragment(new Bezier3Fragment());
+        loadFragment(new PathMeasureFragment());
     }
 
     /**
@@ -50,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
             case FragmentType.TYPE3:
                     mBaseFragment = new Bezier3Fragment();
                 break;
+                //...
         }
         if(mBaseFragment != null) {
             mManager.beginTransaction().replace(R.id.fragment,mBaseFragment).commit();
