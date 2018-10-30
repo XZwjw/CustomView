@@ -4,6 +4,7 @@ package com.example.wangjiawang.customview;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.example.wangjiawang.customview.fragment.BaseFragment;
 import com.example.wangjiawang.customview.fragment.Bezier2Fragment;
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         mManager = getSupportFragmentManager();
         //方法1
         loadFragment(new Bezier3Fragment());
-
+        Log.d("TAG","test 1提交");
     }
 
     /**
