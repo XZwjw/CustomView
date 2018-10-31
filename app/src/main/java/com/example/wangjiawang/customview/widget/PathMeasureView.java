@@ -24,7 +24,7 @@ import com.example.wangjiawang.customview.R;
  * <p>
  * email:15829348578@163.com
  * <p>
- * description:
+ * description:一个用于绕圈飞行的三角
  */
 public class PathMeasureView extends View {
     private Paint mPaint;
