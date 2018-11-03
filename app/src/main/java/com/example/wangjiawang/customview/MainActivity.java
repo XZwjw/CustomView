@@ -11,6 +11,7 @@ import com.example.wangjiawang.customview.fragment.Bezier2Fragment;
 import com.example.wangjiawang.customview.fragment.Bezier3Fragment;
 import com.example.wangjiawang.customview.fragment.BezierFragment;
 import com.example.wangjiawang.customview.fragment.PathMeasureFragment;
+import com.example.wangjiawang.customview.fragment.TestFragment;
 import com.example.wangjiawang.customview.tool.FragmentType;
 
 
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.main_activity_layout);
         mManager = getSupportFragmentManager();
         //方法1
-        loadFragment(new PathMeasureFragment());
+        loadFragment(new TestFragment());
     }
 
     /**

@@ -13,5 +13,5 @@ public class FragmentType {
     public final static int TYPE3 = 30; //心形渐变View
     public final static int TYPE4 = 40; //PathMeasure的使用
 
-
+    public static final int TYPE_TEST = 0x200;  //用于自定义view的测试使用
 }
