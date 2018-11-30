@@ -20,4 +20,5 @@ public class RegionFragment extends BaseFragment {
     public int getType() {
         return 0;
     }
+
 }

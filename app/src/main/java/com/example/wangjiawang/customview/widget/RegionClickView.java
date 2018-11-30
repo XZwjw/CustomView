@@ -5,6 +5,7 @@ import android.graphics.Canvas;
 import android.graphics.Path;
 import android.graphics.Region;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.widget.Toast;
 
@@ -55,6 +56,28 @@ public class RegionClickView extends CustomView{
         }
         return true;
     }
+
+
+//    @Override
+//    public boolean onTouchEvent(MotionEvent event) {
+//        String TAG = "Wjw";
+//        int index = event.getActionIndex();
+//        switch (event.getActionMasked()) {
+//            case MotionEvent.ACTION_DOWN:
+//                Log.e(TAG,"第一个手指按下");
+//                break;
+//            case MotionEvent.ACTION_UP:
+//                Log.e(TAG,"最后一个手指抬起");
+//                break;
+//            case MotionEvent.ACTION_POINTER_DOWN:
+//                Log.e(TAG,"第" + (index+1)+"个手指按下");
+//                break;
+//            case MotionEvent.ACTION_POINTER_UP:
+//                Log.e(TAG,"第" + (index+1)+"个手指抬起");
+//                break;
+//        }
+//        return true;
+//    }
 
     @Override
     protected void onDraw(Canvas canvas) {
