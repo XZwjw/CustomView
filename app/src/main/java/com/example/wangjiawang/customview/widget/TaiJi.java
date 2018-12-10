@@ -7,7 +7,6 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 
 /**
@@ -15,7 +14,7 @@ import android.view.View;
  * <p>
  * email:15829348578@163.com
  * <p>
- * description:
+ * description:太极的实现
  */
 public class TaiJi extends View {
 
@@ -91,7 +90,7 @@ public class TaiJi extends View {
     }
 
     //设置角度
-    private void setAngle(int angle) {
+    public void setAngle(int angle) {
         mAngle = angle;
     }
 }
