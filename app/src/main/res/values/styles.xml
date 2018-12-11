@@ -8,4 +8,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <declare-styleable name="RCLayout">
+        <attr name="round_corner" format="dimension"/>
+        <attr name="round_corner_top_let" />
+        <attr name="round_corner_top_right" />
+        <attr name="round_corner_bottom_let" />
+        <attr name="round_corner_bottom_right" />
+    </declare-styleable>
+
 </resources>
