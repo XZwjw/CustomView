@@ -13,7 +13,7 @@ public class RegionFragment extends BaseFragment {
 
     @Override
     protected int getInflater() {
-        return R.layout.region_layout;
+        return R.layout.rclayout_demo;
     }
 
     @Override
